@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  width: 325px;
+}
+
+.heading_theme_btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading_theme_btn h1 {
+  font-size: 26px;
+}
+
+.heading_theme_btn span {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.theme_btn_div {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.input_div {
+  padding-inline: 10px;
+  height: 25px;
+  width: 65px;
+  border-radius: 20px;
+  display: flex;
+  gap: 5px;
+}
+
+.input_div > input {
+  position: relative;
+  top: 5px;
+  right: 4px;
+  appearance: none;
+  padding-inline: 7px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.circle {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  transition:all 0.3s ease-in-out;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
