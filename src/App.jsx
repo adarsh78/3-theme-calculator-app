@@ -92,7 +92,7 @@ const App = () => {
 
     else if(key === "="){
       if(store && operator) {
-        const result = calculate(parseInt(store), parseInt(num), operator);
+        const result = calculate(parseFloat(store), parseFloat(num), operator);
         setNum(result.toString());
         setOperator(null);
         setStore(null);
